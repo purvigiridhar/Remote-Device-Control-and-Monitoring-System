@@ -1,0 +1,19 @@
+# SSL keys — never push the private key
+server/server.key
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Arduino build files
+*.elf
+*.hex
+build/
